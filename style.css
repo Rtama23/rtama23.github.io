@@ -16,7 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: url(images/bghome.png);
+    background-image: url(images/bghome.png);
     background-size: cover;
     transition: 0.5s;
 }
