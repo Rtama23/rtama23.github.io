@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branding Design Information Technology</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/favicomatic/" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/favicomatic/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicomatic/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href=/favicomatic/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/favicomatic/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/favicomatic/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/favicomatic/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/favicomatic/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/favicomatic/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/favicomatic/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/favicomatic/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/favicomatic/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/favicomatic/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="images/bandit.png" alt="Logo"></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Layanan</a></li>
+                <li><a href="#">Keja Sama</a></li>
+                <li><a href="#">Testimoni</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>Apa Itu ?<br><span>bandit</span></h2>
+                <p style="color: #fff;">(Branding Design Information Technology)</p><br>
+                <p>Sebuah solusi untuk menyelsaikan masalah bagi Usaha Mikro Dan Menengah (UMKM), dengan beberapa jasa yang kami tawarkan. Mulai dari Design Logo, Design Packaging, Pembutan Website, Pembuatan Aplikasi, Pengiklanan, Dan Photo Produk.</p>
+                <a href="#">Lihat Semua Penawaran</a>
+            </div>
+                <div class="imgBox">
+                    <img src="images/laptop.png" class="pepsi">
+                </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="images/laptop.png" onclick="imgSlider('images/laptop.png')"></li>
+            <li><img src="images/smartphone.png" onclick="imgSlider('images/smartphone.png')"></li>
+            <li><img src="images/tablet.png" onclick="imgSlider('images/tablet.png')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="images/facebook.png"></a></li>
+            <li><a href="#"><img src="images/twitter.png"></a></li>
+            <li><a href="#"><img src="images/instagram.png"></a></li>
+        </ul>
+    </section>
+
+    <script type="text/javascript" >
+        function imgSlider(anything){
+            document.querySelector('.pepsi') .src = anything;
+        }
+        function changeBgColor(color){
+            const sec = document.querySelector('.sec');
+            sec.style.background = color;
+        }
+        function menuToggle(){
+            const toggleMenu = document.querySelector('.toggleMenu');
+            const navigation = document.querySelector('.navigation');
+            toggleMenu.classList.toggle('active')
+            navigation.classList.toggle('active')
+
+        }
+
+
+        
+
+    </script> 
+</body>
+</html>
